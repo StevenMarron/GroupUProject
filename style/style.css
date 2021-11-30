@@ -1,0 +1,68 @@
+body{
+	text align: center;
+	color:black;
+	font-family:Tahoma;
+	text-align:center;
+}
+
+.background{
+	background-image:url("../images/BackgroundFadeGrey.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position: bottom;
+}
+
+.container{
+	background-color:white;
+}
+
+.header{
+	text-align:center;
+	font-weight:bold;
+}
+
+.footer{
+	font-weight:bold;
+	color:white;
+	margin:auto;
+}
+
+.roundedImage{
+	border-radius:2%;
+}
+
+.photographerimagecontainer{
+	padding:30px;
+}
+
+.photographerimage{
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;
+	
+}
+
+.footertext{
+	justify-content:space-between;
+	color:white;
+}
+
+.logoInsta{
+	justify-content: space-around;
+	max-width:75%;
+	height:auto;
+	margin:10px;
+}
+
+.row{
+	justify-content:space-around;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#pagebottom{
+	position:relative;
+	bottom: 0;
+}
