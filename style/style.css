@@ -1,5 +1,7 @@
-body{
-	text align: center;
+html, body{
+	height:100%;
+	margin: 0;
+	text-align: center;
 	color:black;
 	font-family:Tahoma;
 	text-align:center;
@@ -11,11 +13,20 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 	background-position: bottom;
+	
 }
 
-.container{
-	background-color:white;
+.fluid-container{
+	background-color:white;	
+	margin-right:10%;
+	margin-left:10%;
 }
+
+@media (max-width: 560px){
+	.fluid-container{
+		margin:0;
+	}
+}	
 
 .header{
 	text-align:center;
