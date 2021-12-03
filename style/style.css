@@ -24,7 +24,7 @@ html, body{
 
 @media (max-width: 560px){
 	.fluid-container{
-		margin:0;
+		margin:0px;
 	}
 }	
 
