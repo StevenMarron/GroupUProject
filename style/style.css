@@ -3,7 +3,7 @@ html, body{
 	margin: 0;
 	text-align: center;
 	color:black;
-	font-family:Tahoma;
+	font-family:Garamond;
 	text-align:center;
 }
 
@@ -33,26 +33,15 @@ html, body{
 	font-weight:bold;
 }
 
+.homepageBio{
+	text-align:left;
+	font-size:120%;
+}
+
 .footer{
 	font-weight:bold;
 	color:white;
 	margin:auto;
-}
-
-.roundedImage{
-	border-radius:2%;
-}
-
-.photographerimagecontainer{
-	padding:30px;
-}
-
-.photographerimage{
-	border-style:solid;
-	border-width:2px;
-	border-color:white;
-	box-shadow:5px 5px 5px #757575;
-	
 }
 
 .footertext{
@@ -69,11 +58,34 @@ html, body{
 
 .row{
 	justify-content:space-around;
-	margin-top:50px;
-	margin-bottom:50px;
+	margin:50px;
 }
 
 #pagebottom{
 	position:relative;
 	bottom: 0;
 }
+
+.roundedImage{
+	border-radius:2%;
+}
+
+.card{
+	 padding: 10px;
+	border-radius:2%;
+	box-shadow:5px 5px 5px #757575;
+}
+
+.card-img-top{
+	width:90%;
+	border-radius:2%;
+	margin: auto;
+}
+
+.photographerimage{
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
+
