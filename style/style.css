@@ -106,16 +106,18 @@ html, body{
 }
 
 .treasureImage{
-	/* size: 50%; */
+	max-width:200px;
 	border-radius:2%;
 	border-style:solid;
 	border-width:2px;
 	border-color:white;
 	box-shadow:5px 5px 5px #757575;	
-	/* margin: 0 auto; */
-	/* margin-bottom: 50px; */
 }
 
 .hideTreasureButton{
-	margin: 0 auto;
+	margin: 50px;
+}
+
+.accordion{
+	margin-bottom: 50px;
 }

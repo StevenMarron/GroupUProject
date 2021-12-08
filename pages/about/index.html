@@ -35,19 +35,68 @@
 <!-- INSERT PAGE CONTENT HERE -->
 <!-- PHOTOGRAPHER ABOUT TEXT AND PHOTO -->
 				<div class="row">
-					<div class="col-lg-6 col-sm-12">
-						<h1 class="header"> Steven: The Story</h1>
-							<p class="homepageBio">
-							My name is Steven Marron and I’m a photographer from Drogheda Co.Louth, Ireland. 
-							Over the course of the COVID-19 lockdowns I developed a passion for photography to 
-							compliment my photo editing experience. I also have experience with drone
-							photography, video editing and music production. Although my photography spans a variety of subject matters
-							I have definitely taken to photographing the beautiful Irish landscapes this country has to offer. In particular,
-							sites associated with Irish mythology and ancient Ireland have been at the forefront of a lot of my photography expeditions.
-							Sites such as the Clochafarmore standing stone where Cu Chulainn is said to have met his end, Newgrange, the Boyne Valley area
-							and plenty more. 
-							</p>
+					<div class="accordion col-lg-8 col-sm-12" id="accordionAbout">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Steven: The Story
+							  </button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAbout">
+								<div class="accordion-body">
+									My name is Steven Marron and I’m a photographer from Drogheda Co.Louth, Ireland. 
+									Over the course of the COVID-19 lockdowns I developed a passion for photography to 
+									compliment my photo editing experience. I also have experience with drone
+									photography, video editing and music production. Although my photography spans a variety of subject matters
+									I have definitely taken to photographing the beautiful Irish landscapes this country has to offer. In particular,
+									sites associated with Irish mythology and ancient Ireland have been at the forefront of a lot of my photography expeditions.
+									Sites such as the Clochafarmore standing stone where Cu Chulainn is said to have met his end, Newgrange, the Boyne Valley area
+									and plenty more. 
+								 </div>
+							</div>
+						</div>
+						
+						<div class="accordion-item">
+							<h2 class="accordion-header-" id="headingTwo">
+							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								Equipment
+							  </button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionAbout">
+								<div class="accordion-body">
+									I use a Canon 700D camera with a variety of lenses to photograph different subject matters.
+									For landscapes I tend to use either my Canon 10-18mm wide angle lens or the 18-55mm kit lens. For wildlife
+									and action shots I use my Canon 70-300mm telephoto lens and for portraits I use my "Nifty-Fifty" Canon 50mm 1.8 lens,
+									and occassionally the lower end of the 70-300mm telephoto lens.
+									</br>
+									For drone photography and videography I use my DJI Mavic Mini drone as it's light and compact so it's easy to add it to the bag
+									whenever I'm going on a photography adventure!
+								 </div>
+							</div>
+						</div>
+						
+						<div class="accordion-item">
+							<h2 class="accordion-header-" id="headingThree">
+							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+								Software and Editing
+							  </button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionAbout">
+								<div class="accordion-body">
+									I use Adobe Lightroom and Photoshop to edit my photos once I'm happy with my composition and quality.
+									Photoshop allows a lot of creative control over photographs however I tend to limit it's use to "fixing" issues
+									such as removing cables and unsightly elements from my the photo. Lightroom on the other hand is a fantastic tool for colour and
+									overall photo texture editing and has proved invaluable in the efforts to give my photos a bit of *pop*.
+									</br>
+									For video editing I use a free software called Davinci Resolve, also because of its remarkeable control over colour and it's easy to use interface.
+									</br>
+								 </div>
+							</div>
+						</div>
 					</div>
+					
+					
+					
 					<div class="col-lg-4 col-sm-12">
 						<img src="../../images/StevenPortrait2.jpg" class="img-fluid roundedImage photographerimage" title="Portrait of photographer" alt="Portrait of photographer">
 					</div>
@@ -55,13 +104,13 @@
 <!-- HIDDEN TREASURE BUTTON -->
 				
 				<div class="row">
-					<div class="col-6-lg col-10-sm">
+					<div class="col-lg-6 col-sm-10">
 						<div class="hiddenTreasure">
 							<button id="treasureButton" class="btn btn-small btn-warning" onclick="HiddenTreasure()" type="button">Definitely NOT Hidden Treasure</button>
-							<a id="treasure">
+							<div id="treasure">
 								<img class="treasureImage" src="../../images/hidden_treasure/Pixie.jpg" class="img-fluid" title="Pixie" alt="Photo of dog with tongue out">
 								<button class="hideTreasureButton" onclick="hideHiddenTreasure()" type="button">Hide Treasure</button>
-							</a>
+							</div>
 						</div>
 					</div>
 				</div>
