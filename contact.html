@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+ <head>
+ <title>contact form</title>
+ </head>
+ <body>
+ <h1>contact form</h1>
+ <p>contact</p>
+ 
+ <script src="contactform.js"></script> 
+ <form onsubmit="return false">
+ <input type="radio" id="male" name="gender" value="male"> Male
+ <input type="radio" id="female" name="gender" value="female"> Female
+ <br><br>
+<input type="text" placeholder="Enter your full name" id="fullName" />
+<br><br>
+<input type="text" placeholder="Enter your contact number" id="contactnumber" />
+<br><br>
+<input type="text" placeholder="Enter your email address" id="emailaddress" />
+<br><br>
+<input type="text" placeholder="Enter your delivery address" id="deliveryaddress" />
+<br><br>
+<input type="checkbox" id="newsletter" />Send me monthly newsletter
+<br><br>
+<input type="text" placeholder="create a password" id="password" />
+<br><br>
+<button onclick="sendContact();">Send contact</button>
+</form>
+ </body>
+</html>
