@@ -95,3 +95,29 @@ html, body{
 	
 	
 }
+
+#treasureButton{
+	display: block;
+	margin: 0 auto;
+}
+
+#treasure{
+	display:none;
+}
+
+.treasureImage{
+	max-width:200px;
+	border-radius:2%;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
+
+.hideTreasureButton{
+	margin: 50px;
+}
+
+.accordion{
+	margin-bottom: 50px;
+}
