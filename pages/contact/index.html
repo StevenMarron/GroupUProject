@@ -34,6 +34,31 @@
 				
 <!-- INSERT PAGE CONTENT HERE -->
 
+<form onsubmit="return true">
+ <input type="radio" id="male" name="gender" value="male"> Male
+ <input type="radio" id="female" name="gender" value="female"> Female
+ <br><br>
+<input type="text" placeholder="Enter your full name" id="fullName" />
+<button onclick submit="fullName" ></button>
+<br><br>
+<input type="text" placeholder="Enter your contact number" id="contactnumber" />
+<button onclick submit="contactnumber" ></button>
+<br><br>
+<input type="text" placeholder="Enter your email address" id="emailaddress" />
+<button onclick submit="emailaddress" ></button>
+<br><br>
+<input type="text" placeholder="Enter home address" id="deliveryaddress" />
+<button onclick submit="deliveryaddress" ></button>
+<br><br>
+<input type="checkbox" id="Send me monthly newsletter" id ="newsletter"/>
+<button onclick submit="newsletter" ></button>
+<br><br>
+<input type="text" placeholder="create a password" id="password" />
+<button onclick submit="password" ></button>
+<br><br>
+<button onclick="sendContact();">Send contact</button>
+<button onclick submit="Send contact" ></button>
+</form>
 
 <!-- FOOTER -->				
 				<div id="pagebottom">
@@ -41,12 +66,13 @@
 						<p  class="footer"><span>Check out my Instagram account here:</span>
 							</br>
 							<a href="https://www.instagram.com/stevenmarron1/" target="_blank">
-							<img class="logoInsta" src="../../images/Marron Logo White Orange Insta.png" class="img-fluid" title="Marron Photography logo and Instagram tag"  alt="Marron Photography logo where the r-o-n forms a camera shape">
+							<img class="logoInsta" src="../../images/Marron Logo White Orange Insta.png" class="img-fluid" title="Marron Photography logo and Instagram tag" alt="Marron Photography logo where the r-o-n forms a camera shape">
 							</a>
 						</p>
 					</div>
 				</div>	
 			</div>
 		</div>
+		<script src="../../javascript/contact.js"></script>
 	</body>
 </html>

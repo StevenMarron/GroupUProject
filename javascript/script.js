@@ -1,6 +1,6 @@
 // JAVASCRIPT
 
-
+// HIDDEN GAME JAVASCRIPT
 
 count=0;
 maxTries=5;
