@@ -1,4 +1,7 @@
 <!-- ABOUT PAGE -->
+
+<!-- AUTHOR - STEVEN MARRON -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,7 +14,9 @@
 	<body>
 		<div class="fluid-container">
 			<div class="background">
-<!-- HEADER			 -->			
+			
+<!-- HEADER			 -->	
+		
 				<nav id="pageTop" class="navbar navbar-expand-lg navbar-dark bg-dark">
 					<div class="container-fluid">
 						<a class="navbar-brand" href="../../index.html">
@@ -33,15 +38,18 @@
 				</nav>
 				
 <!-- INSERT PAGE CONTENT HERE -->
+
 <!-- PHOTOGRAPHER ABOUT TEXT AND PHOTO -->
+
 				<div class="row">
 					<div class="accordion col-lg-8 col-sm-12" id="accordionAbout">
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingOne">
-							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Steven: The Story
-							  </button>
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Steven: The Story
+								</button>
 							</h2>
+							<!-- "show" CLASS USED SO THIS ACCORDION-BODY IS OPEN ON PAGE LOAD -->
 							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAbout">
 								<div class="accordion-body">
 									My name is Steven Marron and I’m a photographer from Drogheda Co.Louth, Ireland. 
@@ -95,18 +103,20 @@
 						</div>
 					</div>
 					
-					
-					
 					<div class="col-lg-4 col-sm-12">
 						<img src="../../images/StevenPortrait2.jpg" class="img-fluid roundedImage photographerimage" title="Portrait of photographer" alt="Portrait of photographer">
 					</div>
 				</div>
+				
 <!-- HIDDEN TREASURE BUTTON -->
 				
 				<div class="row">
 					<div class="col-lg-6 col-sm-10">
 						<div class="hiddenTreasure">
+						<!-- THIS BUTTON TRIGGERS HIDDENTREASURE() JAVASCRIPT FUNCTION  -->
 							<button id="treasureButton" class="btn btn-small btn-warning" onclick="HiddenTreasure()" type="button">Definitely NOT Hidden Treasure</button>
+							<!-- THIS DIV IS HIDDEN BY CSS DISPLAY SETTINGS, CHANGED USING JQUERY "SHOW" FUNCTION -->
+							<!-- ONCE GAME IS COMPLETED -->
 							<div id="treasure">
 								<img class="treasureImage" src="../../images/hidden_treasure/Pixie.jpg" class="img-fluid" title="Pixie" alt="Photo of dog with tongue out">
 								<button class="hideTreasureButton" onclick="hideHiddenTreasure()" type="button">Hide Treasure</button>
@@ -115,9 +125,8 @@
 					</div>
 				</div>
 				
-				
 <!-- VIDEO CONTENT -->
-
+<!-- HTML5 VIDEO TAG UTILISED TO EMBED VIDEO CONTENT ON SITE -->
 				<div class="row">
 					<div class="col-lg-11 col-sm-12">
 						<video controls class="aboutVideo">
@@ -126,9 +135,9 @@
 					</div>
 				</div>
 				
-
 <!-- FOOTER -->
-				<div id="pagebottom">
+
+				<footer id="pagebottom">
 					<div class="col-lg-12 col-sm-12 bg-dark">
 						<p  class="footer"><span>Check out my Instagram account here:</span>
 							</br>
@@ -137,9 +146,11 @@
 							</a>
 						</p>
 					</div>
-				</div>	
+				</footer>	
 			</div>
 		</div>
+		<!-- combination of custom javascript and jquery to run hidden guessing game -->
 		<script src="../../javascript/script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	</body>
 </html>
