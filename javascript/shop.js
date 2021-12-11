@@ -1,71 +1,71 @@
-var removefromcartbuttons=document.getElementsByClassName(btn-removefromcart)
-console.log (removefromcartbuttons)
+function updateCartTotal(){
+var cartItemContainer=document.getElementsByClassName(btn-removefromcart)
+console.log (removefromcartbutton)
 for(i=0;i<removefromcartbuttons.length; i++){
-    var button=removefromcartbuttons[i]
-}
-button.addEventListener('click',function(){
+    var button=removefromcartbutton[i]
+button.addEventListener('click',function(event){
     var buttonclicked=event.target
     buttonclicked.parentElement.parentElement.remove()
-    updateCartTotal
-}}
-function updateCartTotal(){}
-   var cartItemContainer=document.getElementsByClassName("cart items")[0]
+    updateCartTotal()
+  })
 }
 
-var addToCart=document.getElementsByClassName("shop-item button")
-for(i=0;i<removefromcartbuttons.length; i++){
+
+function updateCartTotal(){
+   var cartItemContainer=document.getElementsByClassName("btn-addtocart")[0]
+   console.log (addtocartbutton)
+for(i=0;i<addtocartbutton.length; i++){
     var button=addToCartbuttons[i]
-    var shop item.addToCart('click',function(){
-    var title=shop item.getElementsByClassName("shop item title")
-    var imagesrc item=shop title.getElementsByClassName("shop item image")
-
-function addToCartclicked(event){}
-var button=event.target
-var shop Item=button.Parent Element.Parent Element
-var title=shop item.getElementsByClassName("shop-item title")[]
-
-function purchaseclicked(){}
-alert("Thank you for shopping with us")
-var cartItems=.getElementsByClassName("cart items")[0]
-updateCarttotal()
-
+	button.addEventListener('click',function(event){
+    var buttonclicked=event.target
+    buttonclicked.parentElement.parentElement.add()
+    updateCartTotal()
+  })
 }
-
-cartItemContainer.getElementsByClassName("cart items")
-var cartRows=CartItemContainer..getElementsByClassName("cart row")
-for var(i=0;i<cartRows.length; i++){
-    var cartRow=cartRows[i]
-}
-}
-var priceElement=cartRow..getElementsByClassName("Cart Price")[0]
-var quantityElement=cartRow..getElementsByClassName("Cart-Quanity-Input")[0]
-}
-console.log(price Element,Quantity Element)
-
-var quantity=quantityElement.value
-Total =total + (price* quantity)
-}
-document.getElementsByClassName("cart-total-price")[0].inner text=€ +total
-var quantityinputs=document.getElementsByClassName()
-
-for var =quantityinputs(i=0;i<quantityinputs.length; i++){
-    var quantity=quantityinputs[i]
-    input.addEventListener('change',function(quantity changed){
-    }
     
 
-
- var quantityinputs=document.getElementsByClassName("cart-quantity-input")
- for var(i=0;i<quantityinputs.length; i++){
-    var cartQuantity=cartQuantity[i]
-    var inputs=quantityinputs[i]
-    input.addEventListener('change',function(quantity changed){
-
-function quantitychanged(event){
-var  input=event target
-if(isNaN)(input value)  input.value<=0){
-    input value=1
+function addToCartClicked(){
+	var cartItemContainer=document.getElementsByClassName("shopItemdetails")[0]
+	console.log (shopItemdetailsbutton)
+for(i=0;i<addtocartbutton.length; i++){
+    var button=shopItemdetailsbuttons[i]
+	var image =document.getElementsByClassName("shopItemimage")[0]
+	button.addEventListener('click',function(event){
+    var buttonclicked=event.target
+    buttonclicked.parentElement.parentElement.add()
+    showshopItems()
+  })
 }
- updateCarttotal()
 
+
+function purchaseclicked(){}
+var cartItems=getElementsByClassName("shopItemdetails")[0]
+alert("Thank you for shopping with us")
+button.addEventListener('click',function(event){
+    var buttonclicked=event.target
+    buttonclicked.parentElement.parentElement.update()
+updateCarttotal()
+  })
+}
+
+
+function updateCartTotal(){}
+cartItemContainer.getElementsByClassName("cart items")
+var cartRows=CartItemContainer.getElementsByClassName("cart row")[0]
+var cartRows=CartItemContainer.getElementsByClassName("cart items")[0]
+var total=[0]
+for (i=0;i<cartRows.length; i++){
+    var cartRow=cartRows[i]
+    var priceElement=cartRow.getElementsByClassName("Cart Price")[0]
+    var quantityElement=cartRow.getElementsByClassName("Cart-Quantity-Input")[0]
+	[0]
+	var quantity=quantityElement.value
+    Total =total + (price* quantity)
+	showCarttotal()
+  
+}
+}
+
+
+ 
 }
