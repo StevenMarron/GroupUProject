@@ -1,4 +1,10 @@
-let genderValue = male.checked ? "male" : "female"
+const fullname=document.getElementById("fullName")
+const gender=document.getElementById("gender")
+const address=document.getElementById("address")
+const email=document.getElementById("email")
+const check=document.getElementById("isPasswordValid")
+const question=document.getElementById("question")
+
 function isPasswordValid(password) {
  if (password.length > 5) {
  return true;
@@ -40,10 +46,5 @@ document.addEventListener("DOMContentLoaded", function() {
  fields.password = document.getElementById('password');
  fields.passwordCheck = document.getElementById('passwordCheck');
  fields.newsletter = document.getElementById('newsletter');
-if(isValid()
-	let user=new User(fullname.value,email.value,address.value,password.value,passwordcheck.value);
-alert ${user.fullname}(Thanks for registering)
-}else{
-	alert{user.fullname}(details are incorrect please review)
 }
 )
