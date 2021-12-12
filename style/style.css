@@ -92,20 +92,6 @@ html, body{
 	border-color:white;
 	box-shadow:5px 5px 5px #757575;	
 }
-div.picture1 {
-   width:50%; 
-   height:auto; 
-   img src="../../images/medres/Bridge of Peace.jpg" class
-   margin:0; 
-   padding:0;
-}
-div.picture2 {
-   width:50%; 
-   height:auto; 
-  img src="../../images/medres/Tiger.jpg" 
-   margin:0; 
-   padding:0;
-}
 
 .aboutVideo{
 	width: 100% !important;
@@ -143,4 +129,17 @@ div.picture2 {
 	margin-bottom: 50px;
 }
 
--------------------------------------
+/* ------------------------------------- */
+/* AUTHOR - AUDREY FLYNN */
+
+.shopitemimage {
+   width:100%; 
+   height:auto;
+   margin:0; 
+   padding:0;
+   border-radius:2%;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
