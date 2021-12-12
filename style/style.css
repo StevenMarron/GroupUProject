@@ -92,6 +92,20 @@ html, body{
 	border-color:white;
 	box-shadow:5px 5px 5px #757575;	
 }
+div.picture1 {
+   width:50%; 
+   height:auto; 
+   img src="../images/StevenPortrait2.jpg"
+   margin:0; 
+   padding:0;
+}
+div.picture2 {
+   width:50%; 
+   height:auto; 
+   img src="../images/Tiger.jpg"
+   margin:0; 
+   padding:0;
+}
 
 .aboutVideo{
 	width: 100% !important;
