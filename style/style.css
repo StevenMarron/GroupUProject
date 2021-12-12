@@ -95,14 +95,14 @@ html, body{
 div.picture1 {
    width:50%; 
    height:auto; 
-   img src="../images/StevenPortrait2.jpg"
+   img src="../../images/medres/Bridge of Peace.jpg" class
    margin:0; 
    padding:0;
 }
 div.picture2 {
    width:50%; 
    height:auto; 
-   img src="../images/Tiger.jpg"
+  img src="../../images/medres/Tiger.jpg" 
    margin:0; 
    padding:0;
 }
