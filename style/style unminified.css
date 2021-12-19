@@ -1,0 +1,146 @@
+/* MARRON PHOTOGRAPHY CSS */
+
+/* AUITHOR  - STEVEN MARRON */
+
+html, body{
+	height:100%;
+	margin: 0;
+	text-align: center;
+	color:black;
+	font-family:arial;
+	font-size: 120%;
+	text-align:center;
+}
+
+.background{
+	background-image:url("../images/BackgroundFadeGrey.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position: bottom;
+	
+}
+
+.fluid-container{
+	background-color:white;	
+	margin-right:10%;
+	margin-left:10%;
+}
+
+@media (max-width: 560px){
+	.fluid-container{
+		margin:0px;
+	}
+}	
+
+.header{
+	text-align:center;
+	font-weight:bold;
+}
+
+.homepageBio{
+	text-align:left;
+	font-size:120%;
+}
+
+.footer{
+	font-weight:bold;
+	color:white;
+	margin:auto;
+}
+
+.footertext{
+	justify-content:space-between;
+	color:white;
+}
+
+.logoInsta{
+	justify-content: space-around;
+	max-width:75%;
+	height:auto;
+	margin:10px;
+}
+
+.row{
+	justify-content:space-around;
+	margin:50px;
+}
+
+#pagebottom{
+	position:relative;
+	bottom: 0;
+}
+
+.roundedImage{
+	border-radius:2%;
+}
+
+.card{
+	 padding: 10px;
+	border-radius:2%;
+	box-shadow:5px 5px 5px #757575;
+}
+
+.card-img-top{
+	width:90%;
+	border-radius:2%;
+	margin: auto;
+}
+
+.photographerimage{
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
+
+.aboutVideo{
+	width: 100% !important;
+	height:auto !important;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+	border-radius:2%;	
+}
+
+#treasureButton{
+	display: block;
+	margin: 0 auto;
+}
+
+#treasure{
+	display:none;
+}
+
+.treasureImage{
+	max-width:200px;
+	border-radius:2%;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
+
+.hideTreasureButton{
+	margin: 50px;
+}
+
+.accordion{
+	margin-bottom: 50px;
+}
+
+/* ------------------------------------- */
+/* AUTHOR - AUDREY FLYNN */
+
+.shopitemimage {
+   width:100%; 
+   height:auto;
+   margin:0; 
+   padding:0;
+   border-radius:2%;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	box-shadow:5px 5px 5px #757575;	
+}
